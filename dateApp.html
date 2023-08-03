@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!------------------------------Header Section with CSS Links----------------------------->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dateApp.css"/>
+    <title>Document</title>
+</head>
+<body>
+     <!------------------------------User Enter information here----------------------------->
+    <section class="dayFind">
+        <div id="dateApplication">
+             <!------------------------------Day and Month Text Input----------------------------->             
+            <div id="dateRequest">Date Requested</div>
+            <div id="day"> Enter the DATE</div>
+             <!------------------------------each entry box has onfocus clear----------------------------->
+            <input id="dayInput" type="text" placeholder="1" onfocus="this.value=''"/>
+            <div id="month"> Enter the MONTH</div>
+            <input id="monthInput" type="text" placeholder="April" onfocus="this.value=''">
+             <!------------------------------Button to clear the entries----------------------------->
+            <div id="clearButton"><button type="button" id="buttonClear" onclick="clearFields()">CLEAR</button></div>
+            
+        </div>
+    </section> 
+     <!------------------------------Find Button call a function that will calculate what day it was then return a
+        text available or not available ----------------------------->
+    <section class="findButton">
+        <div id="findButtoned"><button type="button" id="buttonFind" onclick="dateFinder()">FIND</button>
+    </section>
+     <!------------------------------Header Section with CSS LinksAvailability Display --------------->
+        <div id="availabilityText">Availability</div>
+        <div id="availability"></div>        
+    </section>       
+     
+</body>
+<!--------JavaScript link----------------->
+<script src="dateApp.js"></script>
+</html>

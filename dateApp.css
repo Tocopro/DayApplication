@@ -1,0 +1,69 @@
+/*---------------------------body section styling---------------------------------*/
+body
+{
+    background-color: chartreuse;
+    font-family: poppins;
+}
+/*---------------------------styling the user information input section---------------------------------*/
+.dayFind
+{
+    display: flex;
+    border: solid transparent;
+    width: 400px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+/*---------------------------styling the find button---------------------------------*/
+.findButton
+{
+    display: flex;
+    border: solid transparent;
+    width: 400px;
+    height: 50px;
+    margin-left: 120px;
+}
+/*--------------------------styling the input boxes spaces---------------------------------*/
+#dateRequest,#day, #month
+{
+    padding: 10px;
+}
+/*---------------------------positioning the clear button---------------------------------*/
+#clearButton
+{
+    margin-top: 50px;    
+}
+/*---------------------------styling the find button---------------------------------*/
+#findButtoned
+{
+    margin-bottom: 60px;
+}
+/*---------------------------styling the display box---------------------------------*/
+#availabilityText
+{
+    margin-right: 80px;
+}
+/*---------------------------styling the reply text--------------------------------*/
+.reply
+{
+    display: flex;
+    border: solid transparent;
+    width: 400px;
+    height: 40px;
+}
+/*---------------------------styling the buttons clear and find---------------------------------*/
+#buttonClear, #buttonFind
+{
+    padding: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-family: poppins;
+    font-size: 15px;
+    border-radius: 8px;
+    background-color: rgb(78, 212, 221);
+}
+/*---------------------------styling the availability text---------------------------------*/
+#availabilityText
+{
+    padding-left: 20px;
+}
